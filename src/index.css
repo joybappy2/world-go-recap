@@ -1,0 +1,50 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.country-image {
+  width: 200px;
+  /* border-radius: 20px; */
+  display: block;
+  margin: 0 auto;
+}
+
+.country-card {
+  border: 1px solid;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgba(2, 78, 177, 0.295);
+}
+
+.title {
+  font-size: 1rem;
+}
+
+button {
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
