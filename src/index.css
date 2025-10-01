@@ -22,13 +22,17 @@
 
 .country-image {
   width: 200px;
+  height: 100px;
   /* border-radius: 20px; */
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
+  /* padding: 10px; */
+  border: 1px solid;
+  border-radius: 10px;
 }
 
 .country-card {
-  border: 1px solid;
+  /* border: 1px solid; */
   margin: 10px;
   padding: 10px;
   border-radius: 20px;
@@ -38,13 +42,46 @@
 
 .title {
   font-size: 1rem;
+  width: 300px;
 }
 
 button {
+  border-radius: 10px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: cadetblue;
 }
 
 .btn-container {
   display: flex;
   justify-content: space-between;
+  padding: 20px;
   gap: 20px;
+}
+
+.big-title{
+  text-align: center;
+  
+}
+
+.visited-btn{
+  background-color: cadetblue;
+}
+
+.flex{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.sm-img{
+  height: 15px;
+  width: 30px;
+}
+
+.lic{
+  width: px;
 }
